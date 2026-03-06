@@ -72,7 +72,7 @@ Example dataset structure:
 
 ---
 
-# Report Export
+## Report Export
 
 Generate a **PDF report** of the dashboard including:
 
@@ -83,12 +83,14 @@ Generate a **PDF report** of the dashboard including:
 
 ---
 
-# System Architecture
+## System Architecture
 
 Data Input (JSON)
+
         │
         ▼
 Data Processing Layer
+
         │
         ├── Emission Forecast Engine
         ├── Monte Carlo Simulation
@@ -96,6 +98,7 @@ Data Processing Layer
         │
         ▼
 Visualization Layer
+
         │
         ├── Emissions Trend Chart
         ├── Supplier Contribution Ranking
@@ -104,13 +107,14 @@ Visualization Layer
         │
         ▼
 Insights Layer
+
         │
         └── ESG Reasoning Chat Interface
 
 
 ---
 
-# Tech Stack
+## Tech Stack
 
 ## Frontend
 - React  
@@ -137,7 +141,7 @@ Insights Layer
 
 ---
 
-# Installation 
+## Installation 
 
 (1) Clone the repository
 git clone https://github.com/yourusername/carbon-intellect.git
@@ -148,12 +152,12 @@ npm install
 (4) Run the development server
 npm run dev
 
-# Environment Variables
+## Environment Variables
 Create a .env file in the project root.
 API_KEY=your_gemini_api_key
 This key is required for the ESG reasoning assistant.
 
-# Future Improvements
+## Future Improvements
 
 Potential enhancements include:
 
@@ -167,7 +171,7 @@ Potential enhancements include:
 
 ---
 
-# Use Cases
+## Use Cases
 
 Carbon Intellect can be used for:
 
