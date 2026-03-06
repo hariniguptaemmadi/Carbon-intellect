@@ -68,7 +68,8 @@ Example dataset structure:
 
 
 
-## All charts and analytics automatically refresh after ingestion.
+
+# All charts and analytics automatically refresh after ingestion.
 
 ---
 
