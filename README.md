@@ -137,6 +137,22 @@ Insights Layer
 
 ---
 
+# Installation 
+
+(1) Clone the repository
+git clone https://github.com/yourusername/carbon-intellect.git
+(2) Navigate to the project directory
+cd carbon-intellect
+(3) Install dependencies
+npm install
+(4) Run the development server
+npm run dev
+
+# Environment Variables
+Create a .env file in the project root.
+API_KEY=your_gemini_api_key
+This key is required for the ESG reasoning assistant.
+
 # Future Improvements
 
 Potential enhancements include:
