@@ -116,27 +116,27 @@ Insights Layer
 
 ## Tech Stack
 
-# Frontend
+## Frontend
 - React  
 - TypeScript  
 - Tailwind CSS  
 
-# Data Visualization
+## Data Visualisation 
 - Recharts  
 - D3.js  
 
-# Data Processing
+## Data Processing
 - Custom forecasting engine  
 - Monte Carlo simulation  
 
-# AI Integration
+## AI Integration
 - Google Gemini API  
 
-# Utilities
+## Utilities
 - html2canvas  
 - jsPDF  
 
-# Deployment
+## Deployment
 - Vercel  
 
 ---
