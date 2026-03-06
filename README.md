@@ -162,7 +162,9 @@ npm run dev
 
 ## Environment Variables
 Create a .env file in the project root.
+
 API_KEY=your_gemini_api_key
+
 This key is required for the ESG reasoning assistant.
 
 ## Future Improvements
