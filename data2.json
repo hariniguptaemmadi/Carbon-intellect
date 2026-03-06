@@ -1,0 +1,54 @@
+{
+"history": [
+{ "month": "Jan", "scope1": 300, "scope2": 210, "scope3": 900, "total": 1410 },
+{ "month": "Feb", "scope1": 320, "scope2": 220, "scope3": 950, "total": 1490 },
+{ "month": "Mar", "scope1": 350, "scope2": 240, "scope3": 980, "total": 1570 },
+{ "month": "Apr", "scope1": 360, "scope2": 250, "scope3": 1000, "total": 1610 },
+{ "month": "May", "scope1": 380, "scope2": 260, "scope3": 1040, "total": 1680 },
+{ "month": "Jun", "scope1": 400, "scope2": 275, "scope3": 1080, "total": 1755 },
+{ "month": "Jul", "scope1": 420, "scope2": 290, "scope3": 1120, "total": 1830 },
+{ "month": "Aug", "scope1": 410, "scope2": 285, "scope3": 1100, "total": 1795 },
+{ "month": "Sep", "scope1": 395, "scope2": 270, "scope3": 1070, "total": 1735 },
+{ "month": "Oct", "scope1": 370, "scope2": 255, "scope3": 1020, "total": 1645 },
+{ "month": "Nov", "scope1": 360, "scope2": 245, "scope3": 1000, "total": 1605 },
+{ "month": "Dec", "scope1": 355, "scope2": 240, "scope3": 990, "total": 1585 }
+],
+
+"suppliers": [
+{
+"id": "S1",
+"name": "BlueSteel Industries",
+"industry": "Manufacturing",
+"contributionScore": 2100,
+"dependencies": ["S3"]
+},
+{
+"id": "S2",
+"name": "CargoMove Logistics",
+"industry": "Transport",
+"contributionScore": 1400,
+"dependencies": []
+},
+{
+"id": "S3",
+"name": "LithiumCore Mining",
+"industry": "Mining",
+"contributionScore": 2600,
+"dependencies": ["S4"]
+},
+{
+"id": "S4",
+"name": "GridSource Energy",
+"industry": "Energy",
+"contributionScore": 1700,
+"dependencies": []
+},
+{
+"id": "S5",
+"name": "EcoPack Solutions",
+"industry": "Packaging",
+"contributionScore": 900,
+"dependencies": ["S2"]
+}
+]
+}

@@ -1,0 +1,48 @@
+{
+  "history": [
+    { "month": "Jan", "scope1": 420, "scope2": 310, "scope3": 1200, "total": 1930 },
+    { "month": "Feb", "scope1": 400, "scope2": 300, "scope3": 1180, "total": 1880 },
+    { "month": "Mar", "scope1": 430, "scope2": 320, "scope3": 1250, "total": 2000 },
+    { "month": "Apr", "scope1": 410, "scope2": 305, "scope3": 1190, "total": 1905 },
+    { "month": "May", "scope1": 450, "scope2": 330, "scope3": 1320, "total": 2100 },
+    { "month": "Jun", "scope1": 470, "scope2": 340, "scope3": 1380, "total": 2190 }
+  ],
+
+  "suppliers": [
+    {
+      "id": "S1",
+      "name": "MineTech",
+      "industry": "Mining",
+      "contributionScore": 2300,
+      "dependencies": ["S3", "S4"]
+    },
+    {
+      "id": "S2",
+      "name": "SteelForge Ltd",
+      "industry": "Manufacturing",
+      "contributionScore": 1800,
+      "dependencies": ["S1"]
+    },
+    {
+      "id": "S3",
+      "name": "EcoLogistics",
+      "industry": "Logistics",
+      "contributionScore": 1200,
+      "dependencies": []
+    },
+    {
+      "id": "S4",
+      "name": "Alumina Corp",
+      "industry": "Materials",
+      "contributionScore": 1500,
+      "dependencies": ["S3"]
+    },
+    {
+      "id": "S5",
+      "name": "GreenEnergy Co",
+      "industry": "Energy",
+      "contributionScore": 900,
+      "dependencies": ["S4"]
+    }
+  ]
+}

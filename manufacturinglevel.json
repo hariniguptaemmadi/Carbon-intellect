@@ -1,0 +1,53 @@
+{
+  "history": [
+    {"month": "Jan", "scope1": 420, "scope2": 310, "scope3": 980, "total": 1710},
+    {"month": "Feb", "scope1": 415, "scope2": 300, "scope3": 960, "total": 1675},
+    {"month": "Mar", "scope1": 430, "scope2": 305, "scope3": 1000, "total": 1735},
+    {"month": "Apr", "scope1": 450, "scope2": 315, "scope3": 1040, "total": 1805},
+    {"month": "May", "scope1": 470, "scope2": 330, "scope3": 1100, "total": 1900},
+    {"month": "Jun", "scope1": 490, "scope2": 345, "scope3": 1150, "total": 1985},
+    {"month": "Jul", "scope1": 520, "scope2": 360, "scope3": 1200, "total": 2080},
+    {"month": "Aug", "scope1": 510, "scope2": 350, "scope3": 1180, "total": 2040},
+    {"month": "Sep", "scope1": 480, "scope2": 335, "scope3": 1120, "total": 1935},
+    {"month": "Oct", "scope1": 455, "scope2": 320, "scope3": 1080, "total": 1855},
+    {"month": "Nov", "scope1": 440, "scope2": 315, "scope3": 1050, "total": 1805},
+    {"month": "Dec", "scope1": 430, "scope2": 310, "scope3": 1020, "total": 1760}
+  ],
+  "suppliers": [
+    {
+      "id": "S1",
+      "name": "TransGlobal Logistics",
+      "industry": "Transportation",
+      "contributionScore": 2800,
+      "dependencies": ["S4"]
+    },
+    {
+      "id": "S2",
+      "name": "GreenSteel Manufacturing",
+      "industry": "Metals",
+      "contributionScore": 2400,
+      "dependencies": ["S3"]
+    },
+    {
+      "id": "S3",
+      "name": "IronCore Mining",
+      "industry": "Mining",
+      "contributionScore": 2100,
+      "dependencies": ["S5"]
+    },
+    {
+      "id": "S4",
+      "name": "FuelSource Energy",
+      "industry": "Energy",
+      "contributionScore": 1900,
+      "dependencies": []
+    },
+    {
+      "id": "S5",
+      "name": "Industrial Packaging Ltd",
+      "industry": "Packaging",
+      "contributionScore": 1300,
+      "dependencies": []
+    }
+  ]
+}
